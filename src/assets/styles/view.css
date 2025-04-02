@@ -1,0 +1,98 @@
+/* Background with gradient */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a85b6, #bac8e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* Centered container with box shadow */
+.container {
+    max-width: 900px;
+    width: 50pc;
+    background: rgb(218, 247, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #000909;
+    color: rgb(255, 0, 0);
+
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    color: azure;
+}
+
+/* To-Do List styles */
+.todo-list {
+    list-style: none;
+    padding: 0;
+    color: rgb(255, 0, 0);
+
+}
+
+.todo-item {
+    background: rgb(247, 251, 255);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: rgb(255, 0, 0);
+
+}
+
+.todo-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    color: rgb(0, 0, 0);
+
+}
+
+.todo-description {
+    color: #555;
+    margin: 5px 0;
+    color: rgb(0, 0, 0);
+
+}
+
+.todo-date {
+    font-size: 14px;
+    color: #008383;
+    
+}
+
+.priority {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.high {
+    background-color: #ff4d4d;
+}
+
+.medium {
+    background-color: #ffa500;
+}
+
+.low {
+    background-color: #28a745;
+}
