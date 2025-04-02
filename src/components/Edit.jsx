@@ -11,13 +11,13 @@ const View = () => {
   }, []);
 
   const fetchTodos = () => {
-    axios.get("http://localhost:5000/todos")
+    axios.get("https://to-do-backend-2mtn.onrender.com/todos")
       .then(response => setTodos(response.data))
       .catch(error => console.error("Error fetching todos:", error));
   };
 
   const deleteTodo = (id) => {
-    axios.delete(`http://localhost:5000/todos/${id}`)
+    axios.delete(`https://to-do-backend-2mtn.onrender.com/${id}`)
       .then(() => fetchTodos())
       .catch(error => console.error("Error deleting todo:", error));
   };

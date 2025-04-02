@@ -16,7 +16,7 @@ const Add = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/add-todo", todo);
+      await axios.post("https://to-do-backend-2mtn.onrender.com/add-todo", todo);
       alert("To-Do Added Successfully!");
       setTodo({ title: "", description: "", dueDate: "", priority: "Low" });
     } catch (error) {
