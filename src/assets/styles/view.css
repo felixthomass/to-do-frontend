@@ -1,7 +1,7 @@
 /* Background with gradient */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #6a85b6, #bac8e0);
+    background: linear-gradient(135deg, #fafafa, #bac8e0);
     display: flex;
     justify-content: center;
     align-items: center;

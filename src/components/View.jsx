@@ -5,7 +5,7 @@ const View = () => {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
-    axios.get("https://to-do-backend-2mtn.onrender.com/todos")
+    axios.get("https://to-do-backend-2mtn.onrender.com+/todos")
       .then(response => setTodos(response.data))
       .catch(error => console.error("Error fetching todos:", error));
   }, []);

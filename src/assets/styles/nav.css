@@ -1,33 +1,33 @@
 .navbar {
-    position:absolute;
-    top: 0;
-    left:0;
-    width:98%;
-    background: #007bff; /* Attractive Blue */
-    color: white;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 900;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  background: #f1f2f1; /* Deep black */
+  color: #111010;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 900;
+  border-bottom: 1px solid #2c2c2c;
+}
 
-  
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #131313;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #1e90ff; /* Optional: subtle hover effect with accent color */
+  text-decoration: underline;
+}
